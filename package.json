@@ -2,7 +2,7 @@
   "name": "traviscalley.github.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://traviscalley.github.io/",
+  "homepage": "https://traviscalley.github.io/traviscalley.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
