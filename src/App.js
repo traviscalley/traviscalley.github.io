@@ -5,26 +5,35 @@ import './App.css'
 function MainBody() {
   return (
     <div className="Main">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-         sed do eiusmod tempor incididunt ut labore et dolore magna 
-         aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-         ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-         Duis aute irure dolor in reprehenderit in voluptate velit 
-         esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
-         occaecat cupidatat non proident, sunt in culpa qui officia 
-         deserunt mollit anim id est laborum.
+      <p>I am a recent graduate from the University of New Hampshire.
+         During my time at the university I have achieved three deans 
+         lists awards, two high honors and one honors, and a GPA of 3.25
+         in Computer Science. I am passionate about software engineering 
+         and I am currently seeking an entry level position. 
       </p>
     </div>
+  );
+}
+
+function Menu() {
+  return (
+    <ul className="Menu">
+      <li><h3>Travis G. Calley</h3></li>
+      <li><a href="https://www.linkedin.com/in/travis-calley/">LinkedIn Link</a></li>
+      <li><button>About Me</button></li>
+      <li><button>Resume</button></li>
+    </ul>
   );
 }
 
 function App() {
   return (
     <div className="App">
-      <img className="Headshot" 
+      <Menu />
+      {/* <img className="Headshot" 
            src={travis}
            alt="Travis Calley professional headshot"/>
-      <MainBody />
+      <MainBody /> */}
     </div>
    
   );

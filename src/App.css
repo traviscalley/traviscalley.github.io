@@ -1,5 +1,53 @@
 .App {
   text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+.Menu {
+  text-align: center;
+  list-style-type: none;
+  margin-top: 0em;
+  padding-top: 0.5em;
+  padding-left: 15em;
+  padding-right: 15em;
+  padding-bottom: 0.5em;
+  overflow: hidden;
+  background-color: #034f84;
+}
+
+.Menu li {
+  float: left;
+  text-align: center;
+}
+
+.Menu h3 {
+  color: snow;
+  font-size: 1.5em;
+  font-family: Verdana;
+}
+
+.Menu li a {
+  display: block;
+  text-align: center;
+  padding: 1.7em 4em;
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.Menu button {
+  font-size: 1.2em;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  padding-left: 1em;
+  color: snow;
+  border: none;
+  background-color: #034f84;
+}
+
+.Menu button:active {
+  border: none;
+  border-style: none;
 }
 
 .Headshot {
